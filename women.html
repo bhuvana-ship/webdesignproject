@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+        <header id="header">
+        		<div class="inner">
+					<a href="index.html" class="logo"><img src="img/logo.png" style="height: 68px;"></a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About US</a>
+						<a class="active" href="products.html">Products</a>
+						<a href="team.html">Team</a>
+						<a href="FAQ's.html">Faqs</a>
+						<a href="contact.html">Contact Us</a>
+					</nav>
+				</div>
+				
+			</header>
+					
+			<section class="product">
+			<div class="container">				
+
+				<div class="prod_sub">
+				<div class="item">
+						<a href="">	<img src="img/500-sport-cycling-road-cycling-shoes-black.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">500-sport-cycling-road-cycling-shoes-black</a><br>
+					<p><strike style="color:grey">3599</strike>2599</p></div>
+				</div>
+
+				<div class="prod_sub">
+					<div class="item">
+						<a href="">	<img src="img/500-women-s-regular-fit-gentle-gym-pilates-bottoms-black.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">500-women-s-regular-fit-gentle-gym-pilates-bottoms-black</a><br>
+					<p><strike style="color:grey">2499</strike>2099</p></div>
+				</div>
+
+				<div class="prod_sub">
+					<div class="item">
+						<a href="">	<img src="img/f100-adult-goalkeeper-bottoms-black.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">f100-adult-goalkeeper-bottoms-black</a><br>
+					<p>2299</p></div>
+				</div>
+
+				<div class="prod_sub">
+					<div class="item">
+						<a href="">	<img src="img/run-cushion-women-s-running-shoes-black.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">run-cushion-women-s-running-shoes-black</a><br>
+					<p><strike style="color:grey">1999</strike>1499</p></div>
+				</div>
+			</div>
+
+
+			<div class="container">				
+
+				<div class="prod_sub">
+				<div class="item">
+						<a href="">	<img src="img/run-support-women-s-running-shoes-grey-coral.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">run-support-women-s-running-shoes-grey-coral</a><br>
+					<p>2499</p></div>
+				</div>
+
+				<div class="prod_sub">
+					<div class="item">
+						<a href="">	<img src="img/women-s-dance-elasticated-waist-and-ankle-bottoms-black.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">women-s-dance-elasticated-waist-and-ankle-bottoms-black</a><br>
+					<p><strike style="color:grey">1999</strike>1499</p></div>
+				</div>
+
+				<div class="prod_sub">
+					<div class="item">
+						<a href="">	<img src="img/women-s-gym-cardio-fitness-beginner-t-shirt-orange.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">women-s-gym-cardio-fitness-beginner-t-shirt-orange</a><br>
+					<p><strike style="color:grey">3099</strike>2499</p></div>
+				</div>
+
+				<div class="prod_sub">
+					<div class="item">
+						<a href="">	<img src="img/women-s-gym-fitness-cardio-training-beginner-t-shirt-blue.jpg"></a>
+					</div>
+					<div class="item_name"><a style="text-decoration: none; color: black; text-align: center " href=" ">women-s-gym-fitness-cardio-training-beginner-t-shirt-blue</a><br>
+					<p><strike style="color:grey">2499</strike>1499</p></div>
+				</div>
+			</div>
+
+			</section>					
+					
+					
+							<footer>
+							<div class="foot_main">
+									<div class="foot m10">
+										<h2>Address/location</h2>
+										<hr>
+										<p>#67, GK Arcade, Bull Temple Road, <br> Gavipuram Extention Kempegowda Nagar, <br> Basavanagudi, Bengaluru, Karnataka 560004</p>	
+									</div>
+				
+									<div class="foot">
+											<h2>Main links</h2>
+											<hr>
+												<ol>
+													<li><a href="about.html">ABOUT US</a></li>
+													<li><a href="projects.html">PRODUCTS</a></li>
+												</ol>
+									</div>
+				
+									<div class="foot m10">
+											<h2>Contact us @</h2>
+											<hr>
+											<p><strong>Mobile</strong>+91 7738862793</p>
+											<p><strong>Land</strong>+080 223658</p>
+									</div>
+							</div>
+						</footer>
+
+						<!--Footer section end-->
+
+
+
+					<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+							
+							function plusSlides(n) {
+							  showSlides(slideIndex += n);
+							}
+							
+							function currentSlide(n) {
+							  showSlides(slideIndex = n);
+							}
+							
+							function showSlides(n) {
+							  var i;
+							  var slides = document.getElementsByClassName("mySlides");
+							  var dots = document.getElementsByClassName("dot");
+							  if (n > slides.length) {slideIndex = 1}    
+							  if (n < 1) {slideIndex = slides.length}
+							  for (i = 0; i < slides.length; i++) {
+								  slides[i].style.display = "none";  
+							  }
+							  for (i = 0; i < dots.length; i++) {
+								  dots[i].className = dots[i].className.replace(" active", "");
+							  }
+							  slides[slideIndex-1].style.display = "block";  
+							  dots[slideIndex-1].className += " active";
+							}
+
+
+
+
+			
+							</script>
+							
+</body>
+</html>
